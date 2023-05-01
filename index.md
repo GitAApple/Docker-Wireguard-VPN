@@ -159,4 +159,4 @@ Once you successfully created your droplet, then you can connect to your Ubuntu 
 
 
 ### And... Here you go! Your VPN is now active and running
-![Active VPN](Working_VPN.png)
+![Active VPN](VPN_Completed.png)
