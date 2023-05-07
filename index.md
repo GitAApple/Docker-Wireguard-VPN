@@ -183,7 +183,7 @@ Docker-compose up --detach
   <n></n>Open your browser and go to: ``` Your_Ubuntu_IPv4_Address:51821 ```
   - If you used a password to set up earlier, you may have to enter your password here.
   - Under the main page, you should have the screen to add your clients. Click on the "+ New" button to create new user
-  - ![Wireguard UI](Wireguard UI.png)
+    ![Wireguard UI](Wireguard_UI.png)
   - Once a new client is created, then you will have the options on the right side panel to: Enable/Disable, Download QR code, Download conf file, Delete client.
  
 
