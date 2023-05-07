@@ -153,9 +153,9 @@ Once you successfully created your droplet, then you can connect to your Ubuntu 
   - Set up port forwarding on your Ubuntu server to send port 80 communication to 51820 in the Docker Container.
 
   ```
-  sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 172.17.0.2:51820
+  sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 172.18.0.2:51820
   ```
-  *Please note that you should lookup your own docker ip address to replace the 172.170.0.2 shown here.
+  *Please note that you should lookup your own docker ip address to replace the 172.18.0.2 shown here.
   - To lookup your own docker ip address, please run the following command:
     ```
     sudo docker inspect container-name | grep IPAddress
