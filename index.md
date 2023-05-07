@@ -181,11 +181,13 @@ Docker-compose up --detach
 
 - Connect to your Wireguard UI
   <n></n>Open your browser and go to: ``` Your_Ubuntu_IPv4_Address:51821 ```
-  - If you used a password to set up earlier, you may have to enter your password.
-  - 
+  - If you used a password to set up earlier, you may have to enter your password here.
+  - Under the main page, you should have the screen to add your clients. Click on the "+ New" button to create new user
+  - ![Wireguard UI](Wireguard UI.png)
+  - Once a new client is created, then you will have the options on the right side panel to: Enable/Disable, Download QR code, Download conf file, Delete client.
  
 
-- From here, you can either use your mobile client to scan the QR code to connect your VPN or download the conf file under ```~/wireguard/config/``` and then use your Wireguard client to connect.
+- From here, you can either use your mobile client to scan the QR code to connect your VPN or download the conf file and then use your Wireguard client to connect.
 
 
 ### And... Here you go! Your VPN is now active and running
